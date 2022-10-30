@@ -1,0 +1,663 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+      crossorigin="anonymous"
+    />
+    <link rel="icon" type="image/svg" href="/img/logo-1.svg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css"
+      integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./style/main.css" />
+    <title>SheSha</title>
+  </head>
+  <body class="bg-color-danger">
+    <header
+      class="header vh-100 header-set"
+      style="
+        background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+          url(./img/bg-img.jpg) no-repeat center / cover;
+      "
+    >
+      <div class="container">
+        <nav class="navbar navbar-expand-lg text-white">
+          <div class="container-fluid d-flex justify-content-between">
+            <a class="navbar-brand" href="#">
+              <img src="./img/Logo.svg" alt="Logo" class="logo-img" />
+            </a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarNavAltMarkup"
+              aria-controls="navbarNavAltMarkup"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon">
+                <img src="./img/burger.svg" alt="" />
+              </span>
+            </button>
+            <div
+              class="collapse navbar-collapse text-white"
+              style="flex-grow: 0"
+            >
+              <ul class="navbar-nav text-white navbarrar">
+                <li class="nav-item dropdown">
+                  <a
+                    class="nav-link dropdown-toggle text-white"
+                    href="#"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    Furniture
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Button 1</a></li>
+                    <li>
+                      <a class="dropdown-item" href="#">Button 2</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#">Button 3</a>
+                    </li>
+                  </ul>
+                </li>
+                <li class="nav-item">
+                  <a
+                    class="nav-link text-white active"
+                    aria-current="page"
+                    href="#"
+                    >Shop</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-white" href="#">About Us</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-white" href="#">Contact</a>
+                </li>
+              </ul>
+            </div>
+            <div class="text-white shop-cart">
+              <img src="./img/shop-btn.svg" alt="" />
+            </div>
+          </div>
+        </nav>
+        <div class="header__body">
+          <div class="header__content">
+            <h1 class="text-white h1">
+              Make Your Interior More Minimaistic & Modern
+            </h1>
+            <p class="text-white h2">
+              Bringing interiors to life, understanding the person or people
+              <br />
+              living in a home is far greater need in design.
+            </p>
+            <div class="input__group">
+              <input
+                type="text"
+                placeholder="Search Furniture"
+                class="search-input"
+              />
+              <button class="search-btn">
+                <img src="./img/Search.svg" alt="Search" />
+              </button>
+            </div>
+            <div class="dot">
+              <div class="dot1"></div>
+              <div class="dot2"></div>
+              <div class="dot3"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main class="main">
+      <section class="cards p-5 first-card-set">
+        <div class="container">
+          <h2 class="cards-h2">Why Choosing Us</h2>
+          <div class="row row-cols-1 row-cols-md-2 row-cols-xl-4 g-2">
+            <div class="column">
+              <div class="card first-card" style="width: 100%">
+                <div class="card-body">
+                  <div class="img-bg">
+                    <img src="./img/icon1.svg" alt="" />
+                  </div>
+                  <h5 class="card-title">Professionalism</h5>
+                  <p class="card-text">
+                    We deliver the final work with great professional way.
+                  </p>
+                  <a href="#" class="card-link">more info</a>
+                </div>
+              </div>
+            </div>
+            <div class="column">
+              <div class="card first-card" style="width: 100%">
+                <div class="card-body">
+                  <div class="img-bg">
+                    <img src="./img/icon2.svg" alt="" />
+                  </div>
+                  <h5 class="card-title">Smooth workflow</h5>
+                  <p class="card-text">
+                    We provide the most easy smoth workflow of interior design.
+                  </p>
+                  <a href="#" class="card-link">more info</a>
+                </div>
+              </div>
+            </div>
+            <div class="column">
+              <div class="card first-card" style="width: 100%">
+                <div class="card-body">
+                  <div class="img-bg">
+                    <img src="./img/icon3.svg" alt="" />
+                  </div>
+                  <h5 class="card-title">Trusted Platform</h5>
+                  <p class="card-text">
+                    People trust us since we openend the company
+                  </p>
+                  <a href="#" class="card-link">more info</a>
+                </div>
+              </div>
+            </div>
+            <div class="column">
+              <div class="card first-card" style="width: 100%">
+                <div class="card-body">
+                  <div class="img-bg">
+                    <img src="./img/icon4.svg" alt="" />
+                  </div>
+                  <h5 class="card-title">Qualified employee</h5>
+                  <p class="card-text">
+                    Our employees are the best of the field from the city
+                  </p>
+                  <a href="#" class="card-link">more info</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="idea">
+        <div class="container">
+          <div class="row row-cols-xl-2 row-cols-sm-1">
+            <div class="column">
+              <h2 class="idea-h2">Visualize your ideas with us</h2>
+              <p class="idea-p">
+                We are ready to help you build and also realize the room design
+                that you dream of, with <br />
+                our experts and also the best category recommendations from us
+              </p>
+              <div class="accordion" id="accordionExample">
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingOne">
+                    <button
+                      class="accordion-button"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#collapseOne"
+                      aria-expanded="true"
+                      aria-controls="collapseOne"
+                    >
+                      Modern
+                    </button>
+                  </h2>
+                  <div
+                    id="collapseOne"
+                    class="accordion-collapse collapse show"
+                    aria-labelledby="headingOne"
+                    data-bs-parent="#accordionExample"
+                  >
+                    <div class="accordion-body">
+                      Modern design is a term in the design world that refers to
+                      a house with a clean design, simple color choices, the use
+                      of materials including metal, glass, and steel, and is
+                      usually accompanied by clean lines.
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingTwo">
+                    <button
+                      class="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#collapseTwo"
+                      aria-expanded="false"
+                      aria-controls="collapseTwo"
+                    >
+                      Contemporary
+                    </button>
+                  </h2>
+                  <div
+                    id="collapseTwo"
+                    class="accordion-collapse collapse"
+                    aria-labelledby="headingTwo"
+                    data-bs-parent="#accordionExample"
+                  >
+                    <div class="accordion-body">
+                      Modern design is a term in the design world that refers to
+                      a house with a clean design, simple color choices, the use
+                      of materials including metal, glass, and steel, and is
+                      usually accompanied by clean lines.
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingTwo24">
+                    <button
+                      class="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#collapseTwo24"
+                      aria-expanded="false"
+                      aria-controls="collapseTwo24"
+                    >
+                      Minimalis
+                    </button>
+                  </h2>
+                  <div
+                    id="collapseTwo24"
+                    class="accordion-collapse collapse"
+                    aria-labelledby="headingTwo24"
+                    data-bs-parent="#accordionExample"
+                  >
+                    <div class="accordion-body">
+                      Modern design is a term in the design world that refers to
+                      a house with a clean design, simple color choices, the use
+                      of materials including metal, glass, and steel, and is
+                      usually accompanied by clean lines.
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingThree">
+                    <button
+                      class="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#collapseThree"
+                      aria-expanded="false"
+                      aria-controls="collapseThree"
+                    >
+                      Industrial
+                    </button>
+                  </h2>
+                  <div
+                    id="collapseThree"
+                    class="accordion-collapse collapse"
+                    aria-labelledby="headingThree"
+                    data-bs-parent="#accordionExample"
+                  >
+                    <div class="accordion-body">
+                      Modern design is a term in the design world that refers to
+                      a house with a clean design, simple color choices, the use
+                      of materials including metal, glass, and steel, and is
+                      usually accompanied by clean lines.
+                    </div>
+                  </div>
+                  <a href="#" class="acord-a">See more catagory</a>
+                </div>
+              </div>
+            </div>
+            <div class="column">
+              <img
+                class="w-100 idea-img"
+                style="border-radius: 60px 60px 0px 60px; overflow: hidden"
+                src="./img/block-img.jpg"
+                alt=""
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="table">
+        <div class="container">
+          <h2 class="text-center table-h2">Featured Product</h2>
+          <div class="row row-cols-xl-4 row-cols-2">
+            <div class="column">
+              <div class="card">
+                <div class="card-img-bg">
+                  <img src="./img/card1.png" class="card-img-top" alt="..." />
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title">Product</h5>
+                  <p class="card-text">category</p>
+                  <div class="row row-cols-5 colmn-star" style="width: 130px">
+                    <div class="column">
+                      <img src="./img/Star.svg" alt="" />
+                    </div>
+                    <div class="column">
+                      <img src="./img/Star.svg" alt="" />
+                    </div>
+                    <div class="column">
+                      <img src="./img/Star.svg" alt="" />
+                    </div>
+                    <div class="column">
+                      <img src="./img/Star.svg" alt="" />
+                    </div>
+                    <div class="column">
+                      <img src="./img/Star.svg" alt="" />
+                    </div>
+                  </div>
+                  <p href="#" class="card-last-p">IDR 795.000</p>
+                </div>
+              </div>
+            </div>
+            <div class="column">
+              <div class="card">
+                <div class="card-img-bg">
+                  <img src="./img/card2.png" class="card-img-top" alt="..." />
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title">Product</h5>
+                  <p class="card-text">category</p>
+                  <div class="row row-cols-5 colmn-star" style="width: 130px">
+                    <div class="column">
+                      <img src="./img/Star.svg" alt="" />
+                    </div>
+                    <div class="column">
+                      <img src="./img/Star.svg" alt="" />
+                    </div>
+                    <div class="column">
+                      <img src="./img/Star.svg" alt="" />
+                    </div>
+                    <div class="column">
+                      <img src="./img/Star.svg" alt="" />
+                    </div>
+                    <div class="column">
+                      <img src="./img/Star.svg" alt="" />
+                    </div>
+                  </div>
+                  <p href="#" class="card-last-p">IDR 795.000</p>
+                </div>
+              </div>
+            </div>
+            <div class="column">
+              <div class="card">
+                <div class="card-img-bg">
+                  <img src="./img/card3.png" class="card-img-top" alt="..." />
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title">Product</h5>
+                  <p class="card-text">category</p>
+                  <div class="row row-cols-5 colmn-star" style="width: 130px">
+                    <div class="column">
+                      <img src="./img/Star.svg" alt="" />
+                    </div>
+                    <div class="column">
+                      <img src="./img/Star.svg" alt="" />
+                    </div>
+                    <div class="column">
+                      <img src="./img/Star.svg" alt="" />
+                    </div>
+                    <div class="column">
+                      <img src="./img/Star.svg" alt="" />
+                    </div>
+                    <div class="column">
+                      <img src="./img/Star.svg" alt="" />
+                    </div>
+                  </div>
+                  <p href="#" class="card-last-p">IDR 795.000</p>
+                </div>
+              </div>
+            </div>
+            <div class="column">
+              <div class="card">
+                <div class="card-img-bg">
+                  <img src="./img/card4.png" class="card-img-top" alt="..." />
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title">Product</h5>
+                  <p class="card-text">category</p>
+                  <div class="row row-cols-5 colmn-star" style="width: 130px">
+                    <div class="column">
+                      <img src="./img/Star.svg" alt="" />
+                    </div>
+                    <div class="column">
+                      <img src="./img/Star.svg" alt="" />
+                    </div>
+                    <div class="column">
+                      <img src="./img/Star.svg" alt="" />
+                    </div>
+                    <div class="column">
+                      <img src="./img/Star.svg" alt="" />
+                    </div>
+                    <div class="column">
+                      <img src="./img/Star.svg" alt="" />
+                    </div>
+                  </div>
+                  <p href="#" class="card-last-p">IDR 795.000</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="feeback bg-light">
+        <div class="container">
+          <h2 class="text-center mb-5 card-h2">
+            What they say about our services
+          </h2>
+          <div class="row row-cols-1 row-cols-md-2 row-cols-xl-3 g-3 card-off">
+            <div class="column column-center">
+              <div class="card card-bg">
+                <div class="card-body">
+                  <h5 class="card-title-man">Best planning service</h5>
+                  <p class="card-text-man">
+                    I had fantastic experience at she sma with pax planner,
+                    shady rhymes was so helpful and friendly and went above and
+                    beyond to help me configure my perfect walk in wardobe room.
+                  </p>
+                  <div
+                    class="card-user-feed grid"
+                    style="
+                      grid-template-columns: 60px 1fr;
+                      display: grid;
+                      gap: 0 20px;
+                    "
+                  >
+                    <img
+                      src="./img/John.jpg"
+                      style="
+                        grid-row: 1 / span 2;
+                        border-radius: 100%;
+                        overflow: hidden;
+                      "
+                      alt=""
+                    />
+                    <h6>John doe</h6>
+                    <p>Project manager of cupalo</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="column">
+              <div class="card card-bg">
+                <div class="card-body">
+                  <h5 class="card-title-man">Flexible and reliable</h5>
+                  <p class="card-text-man">
+                    Terrific work from beginning to end can work any angle from
+                    minimal help to complete project handling professional
+                    without a doubt! Love!
+                  </p>
+                  <div
+                    class="card-user-feed grid"
+                    style="
+                      grid-template-columns: 60px 1fr;
+                      display: grid;
+                      gap: 0 20px;
+                    "
+                  >
+                    <img
+                      src="./img/woods.jpg"
+                      style="
+                        grid-row: 1 / span 2;
+                        border-radius: 100%;
+                        overflow: hidden;
+                      "
+                      alt=""
+                    />
+                    <h6>Woods Moniq</h6>
+                    <p>Freelancer</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="column">
+              <div class="card card-bg">
+                <div class="card-body">
+                  <h5 class="card-title-man">solution innovative</h5>
+                  <p class="card-text-man">
+                    "I loved working with Darla shady rhymes for about 2 years
+                    and highly recommend anyone looking for an interior designer
+                    agency who brings creativity but designs something that fits
+                    YOU and your style.
+                  </p>
+                  <div
+                    class="card-user-feed grid"
+                    style="
+                      grid-template-columns: 60px 1fr;
+                      display: grid;
+                      gap: 0 20px;
+                    "
+                  >
+                    <img
+                      src="./img/denis.png"
+                      style="
+                        grid-row: 1 / span 2;
+                        border-radius: 100%;
+                        overflow: hidden;
+                      "
+                      alt=""
+                    />
+                    <h6>Denis Rara</h6>
+                    <p>Architect at BPPLU</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="dot-card dot">
+              <div class="dot1"></div>
+              <div class="dot2"></div>
+              <div class="dot3"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="room p-5 block-img">
+        <div class="container">
+          <div class="row row-cols-1 row-cols-md-2 block-seting">
+            <div class="column">
+              <img
+                src="./img/block-img2.jpg"
+                style="
+                  border-radius: 60px 60px 0px 60px;
+                  overflow: hidden;
+                  max-width: 100%;
+                "
+                alt=""
+                class="block-img-set"
+              />
+            </div>
+            <div class="column">
+              <h2 class="block-h2">Make your room feel homey</h2>
+              <p class="block-info">
+                We help people not only to make the room at home better, but we
+                help people to feel a more homey and comfortable room, you don’t
+                have to worry about the result because of these interiors are
+                made by people who are professionals in their dields with an
+                elegant and lucuriois style and with premium quality materials
+                <br />
+                <br />
+                Contact us if you are interested in working with us
+              </p>
+              <div class="input__group block-group">
+                <input
+                  type="email"
+                  placeholder="Insert your email address"
+                  class="search-input block-input"
+                />
+                <button class="search-btn block-btn">
+                  <img src="./img/arrow.svg" alt="Search" />
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <footer
+        class="footer"
+        style="
+          background: linear-gradient(275.58deg, #000000 0%, #4b4b4b 100%);
+          padding-top: 100px;
+          padding-bottom: 250px;
+        "
+      >
+        <div class="container">
+          <div
+            class="row row-cols-1 row-cols-sm-2 row-cols-md-4 row-cols-xl-5 g-4"
+          >
+            <div class="column footer-logo">
+              <a href="" class="footer-logo">
+                <img src="./img/Logo.svg" alt="" />
+              </a>
+            </div>
+            <div class="column text-white">
+              <h3>Features</h3>
+              <ul>
+                <li><a href="">Our Features</a></li>
+                <li><a href="">Pricing</a></li>
+                <li><a href="">Affiliate Program</a></li>
+                <li><a href="">Press Kit</a></li>
+              </ul>
+            </div>
+            <div class="column text-white">
+              <h3>Support</h3>
+              <ul>
+                <li><a href="">Account</a></li>
+                <li><a href="">Help</a></li>
+                <li><a href="">Contact Us</a></li>
+              </ul>
+            </div>
+            <div class="column text-white">
+              <h3>Legal</h3>
+              <ul>
+                <li><a href="">Privacy Policy</a></li>
+                <li><a href="">Terms of Use</a></li>
+              </ul>
+            </div>
+            <div class="column text-white">
+              <h3>Social Media</h3>
+              <ul>
+                <li><a href="">Twitter</a></li>
+                <li><a href="">Product Hunt</a></li>
+                <li><a href="">Instagram</a></li>
+                <li><a href="">Github</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </main>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
